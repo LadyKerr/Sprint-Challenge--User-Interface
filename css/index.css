@@ -195,7 +195,6 @@ header img {
 .top-about-section {
     border-bottom: 1px dashed black;
     margin: 20px;
-    padding: 0;
 }
 
 .top-about-section div {
@@ -254,3 +253,4 @@ footer nav a {
     text-decoration: none;
 }
 
+/* Stretch Goals Attempt*/
