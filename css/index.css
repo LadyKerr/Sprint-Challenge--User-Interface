@@ -190,6 +190,51 @@ header img {
     padding-right: 0;
 }
 
+/* About Page Edits*/
+
+.top-about-section {
+    border-bottom: 1px dashed black;
+    margin: 20px;
+    padding: 0;
+}
+
+.top-about-section div {
+    margin-bottom: 20px;
+}
+
+.main-about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.about-text {
+    border-bottom: 1px dashed black;
+    width: 380px;
+    height: 450px;
+    padding: 20px 5px;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+.about-text h4 {
+    padding-top: 15px;
+}
+
+.about-button {
+    background: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 25px;
+    margin-top: 20px;
+}
+
+.bottom-about-section {
+    margin: 20px;
+    padding-bottom: 20px;
+}
+
 footer {
     width: 100%;
     background: black;
@@ -208,3 +253,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
