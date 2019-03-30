@@ -71,6 +71,30 @@ p {
     margin: 0 auto;
 }
 
+header {
+    background: white;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 20px;
+    font-size: 14px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    padding-top: 20px;
+}
+
+header img {
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -110,6 +134,46 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box.box1 {
+    background-color: teal;
+}
+
+.middle-content .boxes .box.box2 {
+    background-color: gold;
+}
+
+.middle-content .boxes .box.box3 {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box.box4 {
+    background-color: coral;
+}
+
+.middle-content .boxes .box.box5 {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box.box6 {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box.box7 {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box.box8 {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box.box9 {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box.box1 {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
